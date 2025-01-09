@@ -36,14 +36,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install Saxon, Ant and Fundament
+      - name: Install Ant and Fundament
         run: |
           apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
-          ./shellscripts/script.sh
       - name: install python things
         run: pip install -r requirements.txt
-      - name: Fetch the data
-        run: ./fetch_data.sh
       - name: Build the app
         run: ant
       - name: Setup Pages
