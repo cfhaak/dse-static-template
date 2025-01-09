@@ -27,10 +27,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANT_OPTS: -Xmx6g
-      TYPESENSE_HOST: typesense.acdh-dev.oeaw.ac.at
-      TYPESENSE_PORT: 443
-      TYPESENSE_PROTOCOL: https
-      TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
       REGISTRY: ghcr.io
       IMAGE_NAME: ${{ github.repository }}
     steps:
@@ -38,7 +34,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Install Ant and Fundament
         run: |
-          sudo apt-get update && sudo apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
+          sudo apt-get update && sudo apt-get install openjdk-11-jre-headless ant -y --no-install-recommends
       - name: install python things
         run: pip install -r requirements.txt
       - name: Build the app
