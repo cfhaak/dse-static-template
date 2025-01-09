@@ -1,7 +1,6 @@
 # project specific
 *.html
 html/*.xml
-data/imprint.xml
 
 
 # Byte-compiled / optimized / DLL files
