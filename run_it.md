@@ -11,7 +11,7 @@ While being logged into you github account, start by creating a new repository b
 4. unzip ant to some $path
 5. add that $path as ```ANT_HOME``` to windows environment variables (make sure to link the parent folder of the bin sub folder)
 6. add ```%ANT_HOME%\bin``` to the ```PATH``` environment variable
-7. run ```ant -v``` to check if it worked (it might be necessary to reopen cmd/poweshell/whatever to make sure the changes applied)
+7. run ```ant -v``` to check if it worked (it might be necessary to reopen cmd/powershell/whatever to make sure the changes applied)
 8. anyway consider using linux
 
 
@@ -24,5 +24,9 @@ maybe it's already installed maybe it isn't. Try ```ant -v```. If it isn't insta
 ## Build page
 1. Clone your newly created github repository.
 2. Open your favorite terminal. Navigate to the base directory of this repository. Run ant.
-3. XML files placed in data/editions get transformed to html-files and saved in the html folder. You can provide your own files and customize the xslt scripts in the xslt folder.
-4. If you want to see the resulting page, navigate to the html folder, run an server (```python -m http.server --bind 127.0.0.1```) and check the page in your browser
+3. XML files placed in data/editions get transformed to html-files and saved in the html folder.
+4. If you want to see the resulting page, navigate to the html folder, run a server (depending on your system ```python -m http.server --bind 127.0.0.1``` or ```python3 -m http.server --bind 127.0.0.1```) and check the page in your browser
+
+## Customize Page
+Start by setting the ```project_title``` and the ```project_short_title``` variable in ```xslt/partials/params.xsl```.
+You can provide your own xml-files by dumping them into ```data/editions``` and you will likely need to customize the xslt scripts in the xslt folder. Also the site needs some css. You could add some bootstrap classes to the xslt or provide your own css.
