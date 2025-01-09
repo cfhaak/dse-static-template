@@ -21,7 +21,7 @@ maybe it's already installed maybe it isn't. Try ```ant -v```. If it isn't insta
 1. Clone this repo.
 2. Open your favorite terminal. Navigate to the base directory of this repo. Run ant.
 3. XML files placed in data/editions get transformed to html-files and saved in the html folder. You can provide your own files and customize the xslt scripts in the xslt folder.
-4. If you want to see the resulting page, navigate to the html folder, run an server (```python -m http.server```) and check the page in your browser
+4. If you want to see the resulting page, navigate to the html folder, run an server (```python -m http.server --bind 127.0.0.1```) and check the page in your browser
 
 ## Publish page
 You can easily publish the  page online via github pages. Just configure the permissions and run the workflow.
