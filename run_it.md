@@ -29,5 +29,5 @@ maybe it's already installed maybe it isn't. Try ```ant -v```. If it isn't insta
 5. If you want to see the resulting page, navigate to the html folder, run a server (depending on your system ```python -m http.server --bind 127.0.0.1``` or ```python3 -m http.server --bind 127.0.0.1```) and check the page in your browser.
 
 ## Customize Page
-Start by setting the ```project_title``` and the ```project_short_title``` variable in [```./xslt/partials/params.xsl```](./xslt/partials/params.xsl).
+Start by setting the ```project_title``` and the ```project_short_title``` variable in [```./xslt/partials/params.xsl```](./xslt/partials/params.xsl). Try committing and pushing your changes to github. Maybe also change the [README.md](./README.md) containing the text from the template repository.
 You can provide your own xml-files by dumping them into ```data/editions``` and you will likely need to customize the xslt scripts in the xslt folder. Also the site needs some css. You could add some bootstrap classes to the xslt or provide your own css.
