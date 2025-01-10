@@ -2,7 +2,7 @@
 
 ### Whatever System you are using
 you will need a github account. If you don't already have one, create a new one and come back here.
-While being logged into you github account, start by creating a new repository based on this template repository by clicking "Use this template" and "Create a new repository".
+While being logged into you github account, start by creating a new repository based on this template repository by clicking **Use this template** and **Create a new repository**, if you haven’t done this already.
 
 ### If you happen to use Windows please
 1. [get some JDK in case you haven't already](https://www.java.com/en/download/)
