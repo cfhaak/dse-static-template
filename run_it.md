@@ -4,7 +4,7 @@
 you will need a github account. If you don't already have one, create a new one and come back here.
 While being logged into you github account, start by creating a new repository based on this template repository by clicking "Use this template" and "Create a new repository".
 
-### If you - for whatever reason - happen to use Windows please
+### If you happen to use Windows please
 1. [get some JDK in case you haven't already](https://www.java.com/en/download/)
 2. make sure ```JAVA_HOME``` environment variable is set correctly
 3. [download apache-ant (zip)](https://ant.apache.org/bindownload.cgi)
