@@ -5,4 +5,4 @@
 
 ## Setup
 Follow the steps provided in the [documentation for the local setup](./run_it.md).
-If you want to publish your work easily on the internet, follow the steps provided in the tutorial.
+If you want to publish your work on the internet, [follow the steps provided in the tutorial](./publish_it.md).
