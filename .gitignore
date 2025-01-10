@@ -1,6 +1,7 @@
 # project specific
 *.html
 html/*.xml
+html/beacon.txt
 
 
 # Byte-compiled / optimized / DLL files
