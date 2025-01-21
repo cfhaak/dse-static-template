@@ -22,6 +22,7 @@ try ```ant -v```, it should already be installed. If not, get it via apt, pacman
 maybe it's already installed maybe it isn't. Try ```ant -v```. If it isn't installed try via brew or whatever. If that port thing is still being used: ```sudo port install apache-ant```
 
 ## Build page
+**The following expects you to run a client that is already authenticating with GitHub. While some clients will do that out of the box others won’t, depending also on your account settings. I normally use [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) and use a [classic access token](https://github.com/settings/tokens/new) with all "Repo" permissions. You can use it instead of a password on your client. Another solution would be to use an SSH key.**
 1. Clone your newly created github repository.
 2. Open your favorite terminal. Navigate to the base directory of this repository.
 3. Run ```ant```. It will automatically use the [build-file](./build.xml) in this repository to determine what to do.
