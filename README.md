@@ -6,3 +6,4 @@
 ## Setup
 Follow the steps provided in the [documentation for the local setup](./run_it.md).
 If you want to publish your work on the internet, [follow the steps provided in the tutorial](./publish_it.md).
+Check [this file](tree.md), if you want an overview of the files in this repo.
