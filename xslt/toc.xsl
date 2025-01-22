@@ -70,7 +70,7 @@
                     </div>
                 </main>
                 <xsl:call-template name="html_footer"/>
-                <xsl:call-template name="tabulator_js"/>
+                <!--<xsl:call-template name="tabulator_js"/>-->
             </body>
         </html>
     </xsl:template>

@@ -16,10 +16,10 @@
     <xsl:template match="tei:div">
         <div><xsl:apply-templates/></div>
     </xsl:template>
-    <xsl:template match="tei:pb">
+    <!-- <xsl:template match="tei:pb">
         <span class="anchor-pb"></span>
         <span class="pb" source="{@facs}"><xsl:value-of select="./@n"/></span>
-    </xsl:template>
+    </xsl:template> -->
     <xsl:template match="tei:unclear">
         <abbr title="unclear"><xsl:apply-templates/></abbr>
     </xsl:template>
