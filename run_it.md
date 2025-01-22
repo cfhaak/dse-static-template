@@ -6,7 +6,7 @@ While being logged into you github account, start by creating a new repository b
 If you haven't installed python yet, [install it](https://www.python.org/downloads/), you will need it! (Check *add python to path* on windows while installing.)
 
 ### If you happen to use Windows (and don't want use WSL) please
-1. [get some JDK in case you haven't already](https://www.java.com/en/download/)
+1. [get an up to date Java Runtime Environment (JRE) if you haven't already](https://www.java.com/en/download/)
 2. [download apache-ant (zip)](https://ant.apache.org/bindownload.cgi)
 3. unzip ant to some path, most common would be ```%ProgramFiles%```
 4. add that path as ```ANT_HOME``` via *Edit environment variables for your account* (make sure to link the parent folder of the ```bin``` sub folder, could be something like ```%ProgramFiles%/apache-ant-1.10.15-bin\apache-ant-1.10.15```)
