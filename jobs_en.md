@@ -1,4 +1,4 @@
-# Here are some issues that you could solve.
+# Here are some issues you could solve.
 
 ## Problem 1
 
@@ -33,4 +33,8 @@ There are some images contained in the edition xml files, that don’t get rende
 *Can you identify a problem in the TEI-XML relating to fact how we handle pages and images of pages?*
 
 ## Problem 3
-Some of the 
+Some of the edited documents contain footnotes. However if you look at the website you just built theres a bunch of problems. One of the strangest behaviors is, that some of the footnotes are linked to main text. But others aren’t.
+Try to:
+1. Find the XSLT responsible for creating the footnotes in the html files.
+2. Try to understand, which elements in the XML files are affected by it and in what way.
+3. Try to find a better solution.

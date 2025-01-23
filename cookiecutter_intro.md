@@ -4,7 +4,7 @@ Dieses Dokument bietet einen Überblick über die Verwendung des DSE-Static Cook
 <br />
 
 ## Was ist der DSE Static Cookiecutter?
-+ **[DSE Static Cookiecutter](https://github.com/acdh-oeaw/dse-static-cookiecutter) ist ein “static-site” Generator für TEI/XML-kodierte wissenschaftliche digitale Editionen.** Er basiert auf [cookiecutter](https://github.com/cookiecutter/cookiecutter).
++ **[DSE Static Cookiecutter](https://github.com/acdh-oeaw/dse-static-cookiecutter) ist ein “static-site” Generator für TEI/XML-kodierte wissenschaftliche digitale Editionen.** Er basiert auf [cookiecutter](https://github.com/cookiecutter/cookiecutter) und wird von Mitarbeiter:innen des [ACDH-CH](https://www.oeaw.ac.at/acdh/acdh-ch-home/) maintained und entwickelt.
 + Allgemein handelt es sich um eine Sammlung von Prozessen und Informationen, die zum Herstellen simpler, statischer Webseiten verwendet werden können.
 
 <br />
