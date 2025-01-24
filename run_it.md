@@ -14,14 +14,15 @@ Disclaimer: This tutorial was tested thoroughly, but it might still include step
 
 
 ### If you happen to use Windows (and don't want use WSL) please
+
 1. [get an up to date Java Runtime Environment (JRE) if you haven't already](https://www.java.com/en/download/)
 2. [download apache-ant (zip)](https://ant.apache.org/bindownload.cgi)
 3. unzip ant to some path, most common would probably be ```%ProgramFiles%```
-4. add that path as ```ANT_HOME``` via *Edit environment variables for your account* (make sure to link the parent folder of the ```bin``` sub folder, could be something like ```%ProgramFiles%/apache-ant-1.10.15-bin\apache-ant-1.10.15```)
-5. add ```%ANT_HOME%\bin``` to the ```PATH``` environment variable
-6. open a new cmd or powershell terminal
-6. run ```ant -v``` to check if it worked. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means, everything works as expected.
-7. anyway consider using WSL
+4. Open *Edit environment variables for your account* by simply searching for it via the search option of the Windows menu.
+5. find the ```PATH``` variable in the list. Select it and click ```edit```.
+6. choose *new* and paste the path of the ```bin``` folder inside the Ant folder you just unzipped. It likely looks something like this: ```C:\Program Files\apache-ant-1.10.15-bin\apache-ant-1.10.15\bin```
+7. open a new cmd or powershell terminal.
+8. run ```ant -v``` to check if it worked. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means everything works as expected.
 
 
 ### If you’re using Linux
