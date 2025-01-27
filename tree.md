@@ -20,4 +20,4 @@
 └── xslt 							= contains all xslt-templates
     └── partials 					= contains some xslt-templates that get reused by others
 ```
-\* *use ("python -m pip install -r requirements.txt" to install them if you now, what that means.)*
+\* *use ("python -m pip install -r requirements.txt" to install them if you know what that means.)*
