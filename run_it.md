@@ -15,10 +15,13 @@ Disclaimer: This tutorial was tested thoroughly, but it might still include step
 
 ## If you happen to use Windows (and don't want use WSL) please
 ### Java
-0. Check if java is installed. Open cmd, type ```java -version```. If it returns some verion, you can skipt installing Java. If not, [get an up to date Java Runtime Environment (JRE) if you haven't already](https://www.java.com/en/download/) You'll probably need "Windows Offline (64 Bit)". Just run the installer after downloading.
+0. Check if java is installed. Open cmd, type ```java -version```. If it returns some version, you can skipt installing Java. If not,
+1. [get an up to date Java Runtime Environment (JRE) if you haven't already](https://www.java.com/en/download/) You'll probably need "Windows Offline (64 Bit)".
+2. Just run the installer after downloading.
 ### Apache Ant
+0. Check if Ant is installed. Open cmd, type ```ant -version```. If it returns some version, you can skipt installing Ant. If not,
 1. [download apache-ant (zip)](https://ant.apache.org/bindownload.cgi) (Yes. The page looks confusing. Download the "…bin.zip" file.
-2. unzip the file to ```C:\Pogram Files\…```
+2. unzip the file to the ```C:\Pogram Files\``` folder. If Windows for some reason decides that you shouldn't be able to access this folder on your computer, try to create/use something like ```C:\Users\YourYousername\bin\```
 3. Open *Edit environment variables for your account* by simply searching for it via the search option of the Windows menu. (No, this isn't the same as "Edit the system environment variables".)
 4. find the ```PATH``` variable in the list. Select it and click ```edit```.
 5. choose *new* and paste the path of the ```bin``` folder inside the Ant folder you just unzipped. It likely looks something like this: ```C:\Program Files\apache-ant-1.10.15-bin\apache-ant-1.10.15\bin```
