@@ -1,36 +1,40 @@
-## Setup
+# Setup
 
 Disclaimer: This tutorial was tested thoroughly, but it might still include steps, that could do unexpected harm your system. Using it is on your own risk.
 
-### Things you’ll need:
+## Things you’ll need:
 1. Get yourself a GitHub account. (This isn't necessary for building a website using cookiecutter, but there are parts of this tutorial relying on GitHub.)
 2. If you haven't installed python yet, you should download and install it ([e.g. here](https://www.python.org/downloads/)), so that you can run it from your terminal. Make sure to check *add python to path* during installation.
 3. If you are not sure how to authenticate with GitHub other then from your browser or you don't know what that means, consider installing [Visual Studio Code](https://code.visualstudio.com/). This is a code editor, which interacts easily with GitHub.
 4. A terminal. Depending on your operating system, there is a bunch of alternatives. For our purpose the default ```terminal``` programs will be enough. For Windows users either ```cmd``` or ```powershell``` could be used.
 
-### Get started with GitHub
+## Get started with GitHub
 1. While being logged into you GitHub account, start by creating a new repository based on this template repository by clicking **Use this template** and **Create a new repository** on the [main page of this repository](https://github.com/cfhaak/dse-static-template). Make your new repository *public* by checking the corresponding field. However keep in mind, that this means everything you store in your repository will be public! Make sure to not accidentally expose any sensitive, copyrighted or otherwise problematic data!
 2. Clone the repository you just created. ([Here's how to do that using VS Code.](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_clone-a-repository-locally) Make sure to select *Clone from Github*.)
 
 
-### If you happen to use Windows (and don't want use WSL) please
+## If you happen to use Windows (and don't want use WSL) please
+### Java
+0. Check if java is installed. Open cmd, type ```java -version```. If it returns some verion, you can skipt installing Java. If not, [get an up to date Java Runtime Environment (JRE) if you haven't already](https://www.java.com/en/download/) You'll probably need "Windows Offline (64 Bit)". Just run the installer after downloading.
+### Apache Ant
+1. [download apache-ant (zip)](https://ant.apache.org/bindownload.cgi) (Yes. The page looks confusing. Download the "…bin.zip" file.
+2. unzip the file to ```C:\Pogram Files\…```
+3. Open *Edit environment variables for your account* by simply searching for it via the search option of the Windows menu. (No, this isn't the same as "Edit the system environment variables".)
+4. find the ```PATH``` variable in the list. Select it and click ```edit```.
+5. choose *new* and paste the path of the ```bin``` folder inside the Ant folder you just unzipped. It likely looks something like this: ```C:\Program Files\apache-ant-1.10.15-bin\apache-ant-1.10.15\bin```
+6. open a new cmd or powershell terminal.
+7. run ```ant -v``` to check if it worked. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means everything works as expected.
 
-1. [get an up to date Java Runtime Environment (JRE) if you haven't already](https://www.java.com/en/download/)
-2. [download apache-ant (zip)](https://ant.apache.org/bindownload.cgi)
-3. unzip ant to some path, most common would probably be ```%ProgramFiles%```
-4. Open *Edit environment variables for your account* by simply searching for it via the search option of the Windows menu.
-5. find the ```PATH``` variable in the list. Select it and click ```edit```.
-6. choose *new* and paste the path of the ```bin``` folder inside the Ant folder you just unzipped. It likely looks something like this: ```C:\Program Files\apache-ant-1.10.15-bin\apache-ant-1.10.15\bin```
-7. open a new cmd or powershell terminal.
-8. run ```ant -v``` to check if it worked. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means everything works as expected.
 
-
-### If you’re using Linux
+## If you’re using Linux
 try ```ant -v```, it should already be installed. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist!
-Build failed``` This actually means, everything works as expected. If ant isn’t installed for some reason, get it via apt, pacman etc.
+Build failed``` This actually means everything works as expected. If ant isn’t installed for some reason, get it via apt, pacman etc.
 
 ### If you’re using MacOs
 maybe it's already installed maybe it isn't. Try ```ant -v```. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means, everything works as expected. However if it isn't installed try via installing it via brew etc. If that port thing is still being used ```sudo port install apache-ant``` should install it.
+
+
+# Building and Running
 
 ## Build page
 1. Open your favorite terminal. Navigate to the base directory of this repository. (You just cloned it, remember?) If you are not sure how to navigate thru the filesystem with your terminal, look it up. In some filebrowser it’s possible to open a context menu (eg. by right-clicking in a folder) and select an option like *open terminal here*.
