@@ -1,4 +1,4 @@
-# Setup
+# 1. Setup
 
 Disclaimer: This tutorial was tested thoroughly, but it might still include steps that could unexpectedly harm your system. Use it at your own risk.
 
@@ -34,7 +34,7 @@ Build failed``` This actually means everything works as expected. If Ant isn’t
 ### If you’re using macOS
 Maybe it's already installed; maybe it isn't. Try ```ant -v```. Don’t worry if it returns something like: ```Buildfile: build.xml does not exist! Build failed``` This actually means everything works as expected. However, if it isn't installed, try installing it via brew, etc. If MacPorts is still being used, ```sudo port install apache-ant``` should install it.
 
-# Building and Running
+# 2. Building and Running
 
 ## Build page
 1. Open your favorite terminal. Navigate to the base directory of this repository. (You just cloned it, remember?) If you are not sure how to navigate through the filesystem with your terminal, look it up. In some file browsers it’s possible to open a context menu (e.g., by right-clicking in a folder) and select an option like *open terminal here*.
